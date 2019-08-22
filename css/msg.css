@@ -1,0 +1,129 @@
+@charset "UTF-8";
+.pageMsg .navbar{
+  margin-bottom: 55px;
+}
+.pageMsg .mainT{
+  margin-bottom: 20px;
+}
+.pageMsg .mainT .col-left{
+  font-size: 20px;
+}
+.pageMsg .mainT .col-right{
+  text-align: right;
+}
+.pageMsg .mainT .col-right .btn-default{
+  background: none;
+  padding: 0 20px;
+  height: 30px;
+  line-height: 30px;
+}
+.pageMsg .msgList{
+  background: #fff;
+  padding: 0 20px;
+}
+.pageMsg .msgList .row{
+  padding: 15px 0;
+  border-bottom: 1px dashed #cccccc;
+}
+.pageMsg .msgList .name{
+  font-size: 12px;
+  display: inline-block;
+}
+.pageMsg .msgList .time{
+  font-size: 12px;
+  color: #999;
+  display: inline-block;
+  margin-left: 20px;
+}
+.pageMsg .msgList .content{
+  font-size: 12px;
+  color: #2c2c2c;
+  margin: 15px 0 0 0;
+  font-weight: 200;
+}
+.pageMsg .msgList .col-right{
+  padding: 0px;
+  font-size: 12px;
+  text-align: center;
+  color: #999;
+}
+.pageMsg .msgList .no-read .content{
+  font-weight: 600;
+}
+.pageMsg .msgList .no-read .col-right{
+  font-weight: 600;
+  color: #333;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .pageSuccess .col-xs-12{
+    width: 100%;
+  }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  .pageMsg .navbar{
+    margin-bottom: 0px;
+  }
+  .pageMsg .main .container{
+    background: #fff;
+    padding: 20px 0;
+    margin-top: 30px;
+  }
+  .pageMsg .main .container .row{
+    margin: 0px;
+  }
+  .pageMsg .main .container .row>div{
+    padding: 0px;
+  }
+  .pageMsg .mainT{
+    height: 80px;
+    line-height: 80px;
+    font-size: 24px;
+    margin-bottom: 1px;
+  }
+  .pageMsg .mainT .row{
+    margin: 0 50px!important;
+    border-bottom: 1px solid #cccccc;
+  }
+  .pageMsg .mainT .col-right{
+    text-align: right;
+  }
+  .pageMsg .mainT .btn{
+    height: 40px!important;
+    line-height: 40px!important;
+    font-size: 18px;
+    padding: 0 45px!important;
+    background: #fff;
+  }
+  .pageMsg .msgList{
+    padding: 0 50px;
+  }
+  .pageMsg .msgList .row{
+    padding: 25px 0;
+  }
+  .pageMsg .msgList .name{
+    font-size: 18px;
+    display: inline-block;
+  }
+  .pageMsg .msgList .time{
+    font-size: 16px;
+    color: #999;
+    display: inline-block;
+    margin-left: 45px;
+  }
+  .pageMsg .msgList .content{
+    font-size: 16px;
+    color: #2c2c2c;
+    margin: 15px 0 0 0;
+    font-weight: 200;
+  }
+  .pageMsg .msgList .col-right{
+    font-size: 16px;
+  }
+}

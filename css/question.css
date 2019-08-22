@@ -1,0 +1,329 @@
+@charset "UTF-8";
+.pageQu .main{
+  height: 100vh;
+}
+.pageQu .main .container{
+  padding: 0px;
+  height: 100vh;
+}
+.pageQu .main .title-info{
+  background: #f1f1f1;
+  text-align: center;
+  width: 100%;
+  height: 47px;
+  position: relative;
+  border-bottom: 1px solid #dcdcdc;
+  z-index: 1;
+}
+.pageQu .main .title-info h4{
+  font-size: 14px;
+  line-height: 47px;
+  padding: 0px;
+  margin: 0px;
+}
+.pageQu .main .title-info .back{
+  position: absolute;
+  left: 15px;
+  top: 9px;
+  text-decoration: none;
+}
+.pageQu .main .title-info .back .icon{
+  margin-right: 10px;
+}
+.pageQu .main .title-info .back .icon img{
+  height: 30px;
+}
+.pageQu .main .progress{
+  width: 100%;
+  height: 4px;
+  background: #cacaca;
+  margin-bottom: 0px;
+}
+.pageQu .main .progress .val{
+  background:url(../img/progress.png) repeat-y 0 0;
+  background-size: 100% 100%;
+  width: 50%;
+  height: 100%;
+}
+.pageQu .main .row{
+  margin: 0px;
+  background: #fff;
+}
+.pageQu .main .row>div{
+  padding: 0px;
+}
+.pageQu .main .row .col-left{
+  height: 40vh;
+  background: #fff;
+}
+.pageQu .main .row .col-left>div{
+  height: 100%;
+}
+.pageQu .main .row .col-left .scroll{
+  overflow: auto;
+  height: calc(100% - 44px);
+  padding: 0;
+}
+.pageQu .main .row .col-left .scroll img{
+  width: 100%;
+}
+.pageQu .main .row .col-left .search{
+  height: 44px;
+  line-height: 44px;
+  background: #eeeeee;
+  vertical-align: middle;
+  padding: 0 15px;
+  font-size: 12px;
+  position: relative;
+}
+.pageQu .main .row .col-left .search .back{
+  padding: 0px;
+}
+.pageQu .main .row .col-left .search .back img{
+  padding: 0px;
+  width: 35px;
+  height: 35px;
+}
+.pageQu .main .row .col-left .search .input{
+  text-align: center;
+}
+.pageQu .main .row .col-left .search .input .text{
+  font-weight: 600;
+}
+.pageQu .main .row .col-left .search input{
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  display: inline-block;
+  margin-left: 5px;
+  width: 120px;
+}
+.pageQu .main .row .col-right{
+  background: #fff;
+  height: 60vh;
+}
+.pageQu .main .row .col-right .progress {
+  box-shadow:
+-2px 0 3px -1px #fff,
+0 -2px 3px -1px #fff,
+0 2px 9px -1px rgba(0,0,0,.8),
+2px 0 3px -1px #fff;
+}
+.pageQu .main .row .col-right .scroll{
+  overflow: auto;
+  height: calc(100% - 4px);
+  position: relative;
+}
+.pageQu .main .row .col-right .list{
+  padding: 0px;
+}
+.pageQu .main .row .col-right .list li{
+  list-style: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-bottom: 1px solid #ececec;
+}
+.pageQu .main .row .col-right .list li .t{
+  font-weight: 600;
+}
+.pageQu .main .row .col-right .list .required{
+  color:#eb0100;
+  display: inline-block;
+  margin-right: 5px;
+}
+.pageQu .main .row .col-right .list .marks{
+  color: #747474;
+  font-size: 12px;
+  padding-left: 20px;
+}
+.pageQu .main .row .col-right .list .input{
+  padding: 15px 0;
+}
+.pageQu .main .row .col-right .list .input input{
+  width: 100%;
+  padding: 0 10px;
+  height: 28px;
+  line-height: 26px;
+}
+.pageQu .main .row .col-right .list .select{
+  padding: 15px 0;
+}
+.pageQu .main .row .col-right .list .select select{
+  width: 100%;
+  padding: 0 10px;
+  height: 28px;
+  line-height: 26px;
+  font-size: 14px;
+}
+.pageQu .main .row .col-right .list .table{
+  padding: 15px 0;
+  margin-bottom: 0px;
+}
+.pageQu .main .row .col-right .list table{
+  width: 100%;
+}
+.pageQu .main .row .col-right .list table td,
+.pageQu .main .row .col-right .list table th{
+  width: 16%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 5px 0;
+}
+.pageQu .main .row .col-right .list table td{
+  border-bottom: 1px dashed #ececec;
+}
+.pageQu .main .row .col-right .list table tr:nth-last-child(1) td{
+  border:none;
+}
+.pageQu .main .row .col-right .list table .radio,
+.pageQu .main .row .col-right .list table .checkbox{
+  margin: 0;
+}
+.pageQu .main .btns{
+  padding: 15px;
+  background: #f5f5f7;
+  height: 64px;
+}
+.pageQu .main .btn{
+  display: block;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.pageQu .main footer{
+  height: 36px;
+  line-height: 36px;
+  padding: 0px 15px;
+  background: #ececee;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .pageQu .col-xs-12{
+    width: 100%;
+  }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  /* .pageQu{
+    padding-top: 126px;
+  } */
+  .pageQu .main{
+    height: auto;
+  }
+  .pageQu .main .container{
+    height: auto;
+    margin-top: 30px;
+  }
+  .pageQu .main .title-info{
+    height: 127px;
+    line-height: 120px;
+    position: relative;
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(239,239,241,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,241,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(239,239,241,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efeff1',GradientType=0 ); /* IE6-9 */
+  }
+  .pageQu .main .title-info h4{
+    font-size: 20px;
+    display: inline-block;
+  }
+  .pageQu .main .title-info .down-time{
+    font-size: 20px;
+    color: #ef0303;
+    display: inline-block;
+    margin-left: 40px;
+  }
+  .pageQu .main .title-info .down-time .icon{
+    margin-right: 10px;
+  }
+  .pageQu .main .title-info .back{
+    font-size: 20px;
+    color: #333;
+    left: 30px;
+    top: 0px;
+  }
+  .pageQu .main .title-info .back .icon img{
+    height: auto;
+  }
+  .pageQu .main .title-info .progress{
+    height: 7px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+  }
+  .pageQu .main .row .col-left{
+    min-height: 499px;/*解决滚动图片区固定顶部时，禁止高度变化，影响滚动条*/
+    padding: 30px;
+  }
+  .pageQu .main .row .col-left>div{
+    height: auto;
+  }
+  .pageQu .main .row .col-left .scroll{
+    padding: 0px;
+    margin: 0px;
+    max-height: 400px;
+  }
+  .pageQu .main .row .col-left .search{
+    padding: 20px;
+    height: auto;
+    line-height: 20px;
+  }
+  .pageQu .main .row .col-left .search .text{
+    position: static;
+    display: block;
+  }
+  .pageQu .main .row .col-left .search .input{
+    margin: 0px;
+    text-align: left;
+  }
+  .pageQu .main .row .col-left .search input{
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+  }
+  .pageQu .main .row .col-right{
+    height: auto;
+    padding: 30px 0;
+  }
+  .pageQu .main .row .col-right .list li{
+    margin-bottom: 20px;
+  }
+  .pageQu .main .row .col-right .list li .radio,
+  .pageQu .main .row .col-right .list li .checkbox{
+    padding: 10px 0;
+  }
+  .pageQu .main .row .col-right .list .t{
+    font-size: 20px;
+  }
+  .pageQu .main .row .col-right .list .input input,
+  .pageQu .main .row .col-right .list .select select{
+    height: 52px;
+    line-height: 50px;
+    width: 580px;
+    padding: 0 30px;
+  }
+  .pageQu .main .row .col-right .list .table{
+    width: 580px;
+  }
+  .pageQu .main .row .col-right .list .table .radio,
+  .pageQu .main .row .col-right .list .table .checkbox{
+    padding: 0;
+  }
+  .pageQu .main .btns{
+    text-align: center;
+    padding: 48px 0;
+    height: auto;
+  }
+  .pageQu .main .btns .btn{
+    width: 390px;
+    margin: 0 auto;
+  }
+}

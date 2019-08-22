@@ -1,0 +1,91 @@
+@charset "UTF-8";
+.pageSuccess .main .container{
+  padding: 0px;
+}
+.pageSuccess .main .title-info{
+  background: #f1f1f1;
+  text-align: center;
+  padding: 20px 15px;
+}
+.pageSuccess .main .title-info h1{
+  font-size: 18px;
+  font-weight: 600;
+}
+.pageSuccess .main .title-info h3{
+  font-size: 14px;
+}
+.pageSuccess .main .title-info h4{
+  font-size: 14px;
+}
+.pageSuccess .main .result{
+  padding: 35px 15px;
+  background: #fff;
+  text-align: center;
+}
+.pageSuccess .main .result .icon{
+  margin-bottom: 13px;
+}
+.pageSuccess .main .result .icon img{
+  height: 70px;
+}
+.pageSuccess .main .result p{
+  font-size: 14px;
+}
+.pageSuccess .main .result .btns{
+  padding-top: 35px;
+}
+.pageSuccess .main .result .btn{
+  display: block;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .pageSuccess .col-xs-12{
+    width: 100%;
+  }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  /* .pageSuccess{
+    padding-top: 126px;
+  } */
+  .pageSuccess .main .title-info{
+    margin-top: 30px;
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(239,239,241,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,241,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(239,239,241,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efeff1',GradientType=0 ); /* IE6-9 */
+  }
+  .pageSuccess .main .title-info h1{
+    font-size: 28px;
+  }
+  .pageSuccess .main .title-info h3{
+    font-size: 20px;
+  }
+  .pageSuccess .main .title-info h4{
+    font-size: 20px;
+  }
+  .pageSuccess .main .result{
+    padding-top: 70px;
+  }
+  .pageSuccess .main .result .icon{
+    margin-bottom: 25px;
+  }
+  .pageSuccess .main .result .icon img{
+    height: auto;
+  }
+  .pageSuccess .main .result .btns{
+    max-width: 390px;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+}

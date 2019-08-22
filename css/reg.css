@@ -1,0 +1,142 @@
+@charset "UTF-8";
+.pageReg.container{
+  height: 100vh;
+  background: url(../img/m/login/img_01.png) no-repeat 50% 0;
+  background-size: 100% 100%;
+  overflow: auto;
+}
+.pageReg .form-signin {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 5px;
+}
+.pageReg .form-signin .form-signin-heading{
+  margin: 0px;
+  padding: 58px 0 48px 0;
+}
+.pageReg .form-signin .form-signin-heading img{
+  width: 70%;
+}
+.pageReg .form-signin .form-signin-body strong{
+  font-size: 18px;
+  color: #4bb1ef;
+  display: block;
+  margin-bottom: 30px;
+}
+.pageReg .form-signin .form-signin-body .item{
+  position: relative;
+}
+.pageReg .form-signin .vcode{
+  margin: 10px 0;
+}
+.pageReg .form-signin .msg{
+  font-size: 12px;
+  color: #f03e24;
+  position: absolute;
+  right: 0px;
+  top: 100%;
+  display: none;
+  text-align: right;
+}
+.pageReg .form-signin .item.error input{
+  border-color: #f03e24;
+}
+.pageReg .form-signin .item.error .msg{
+  display: block;
+}
+.pageReg .form-signin input[type="text"],
+.pageReg .form-signin input[type="password"] {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  margin-bottom: 8px;
+  border: none;
+  border-bottom: 2px solid #4ab0ee;
+  background: none;
+  border-radius: 0px;
+}
+.pageReg .form-signin button{
+  width: 100%;
+  background: #4bb1ef;
+  color: #fff;
+  height: 36px;
+  line-height: 36px;
+  padding: 0px;
+}
+.pageReg .form-signin .reg{
+  text-align: right;
+  font-size: 14px;
+  padding: 10px 0 15px 0;
+}
+.pageReg .form-signin .reg a{
+  color: #4bb1ef;
+}
+.pageReg .form-signin .getVCode{
+  color: #4bb1ef;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+.pageReg .footer{
+  color: #969c9a;
+  margin-top: 50px;
+  font-size: 12px;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+  .pageReg.container{
+    width: 100%;
+    display:table;
+    margin: 0px;
+    padding: 0px;
+    background: url(../img/pc/login/img_01.png) no-repeat 50% 0;
+    background-size: 100% 100%;
+  }
+  .pageReg .form-signin {
+    width: 493px;
+    height: 474px;
+    margin: 0 auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .pageReg .form-signin .form-signin-heading{
+    padding: 0px;
+    margin-bottom: 50px;
+  }
+
+  .pageReg .form-signin .form-signin-body{
+    background: #fff;
+    padding: 50px 57px 40px 57px;
+    border-radius: 10px;
+  }
+  .pageReg .form-signin .form-signin-body strong{
+    font-size: 24px;
+    font-weight: normal;
+  }
+  .pageReg .form-signin input[type="text"],
+  .pageReg .form-signin input[type="password"] {
+    height: 48px;
+    line-height: 48px;
+  }
+  .pageReg .form-signin button{
+    height: 52px;
+    line-height: 52px;
+    font-size: 15px;
+    margin-top: 28px;
+  }
+  .pageReg .form-signin .getVCode{
+    top: 15px;
+  }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+  
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  
+}
