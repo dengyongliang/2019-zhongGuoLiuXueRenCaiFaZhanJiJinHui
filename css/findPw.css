@@ -17,11 +17,24 @@
 .pageFindPw .form-signin .form-signin-heading img{
   width: 70%;
 }
-.pageFindPw .form-signin .form-signin-body strong{
+.pageFindPw .form-signin .form-signin-body ul{
+  padding: 0px;
+  list-style: none;
+}
+.pageFindPw .form-signin .form-signin-body .hd{
+  margin-bottom: 30px;
+}
+.pageFindPw .form-signin .form-signin-body .hd li{
   font-size: 18px;
-  color: #4bb1ef;
+  color: #999;
   display: block;
   margin-bottom: 30px;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.pageFindPw .form-signin .form-signin-body .hd li.active{
+  color: #4bb1ef;
 }
 .pageFindPw .form-signin .form-signin-body .item{
   position: relative;
@@ -63,6 +76,7 @@
   height: 36px;
   line-height: 36px;
   padding: 0px;
+  margin-top: 28px;
 }
 .pageFindPw .form-signin .reg{
   text-align: right;
@@ -111,9 +125,8 @@
     padding: 50px 57px 40px 57px;
     border-radius: 10px;
   }
-  .pageFindPw .form-signin .form-signin-body strong{
+  .pageFindPw .form-signin .form-signin-body .hd li{
     font-size: 24px;
-    font-weight: normal;
   }
   .pageFindPw .form-signin input[type="text"],
   .pageFindPw .form-signin input[type="password"] {
