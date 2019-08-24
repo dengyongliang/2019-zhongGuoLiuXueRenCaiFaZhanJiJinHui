@@ -1,0 +1,465 @@
+@charset "UTF-8";
+.pageDossier .main .container {
+    margin-top: 15px;
+}
+
+.pageDossier .main .container>div {
+    background: #fff;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.pageDossier .step1 strong {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.pageDossier .step1 p {
+    text-align: left;
+}
+
+.pageDossier .step1 b {
+    display: block;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 20px 0;
+}
+.pageDossier .step2{
+    background: none!important;
+    padding: 0px!important;
+}
+.pageDossier .step2 strong{
+    display: block;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.pageDossier .step2 strong i{
+    color: #5ab325;
+}
+.pageDossier .step2 strong .btnUpdate{
+    float: right;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #4ba1ec;
+}
+.pageDossier .step2 .box{
+    background: #fff;
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.pageDossier .step2 .box1 .control-label{
+    color: #999;
+}
+.pageDossier .step2 .box1 .has-error input{
+    border-color: #e84218;
+}
+.pageDossier .step2 .box1 .msg{
+    display: inline-block;
+}
+.pageDossier .step2 .box1 .msg.error{
+    color: #e54920;
+}
+.pageDossier .step2 .box1 .col-upload{
+    text-align: center;
+}
+.pageDossier .step2 .box1 .col-upload .row{
+    margin-bottom: 30px;
+}
+.pageDossier .step2 .box1 .col-upload b{
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.pageDossier .step2 .box1 .col-upload .text{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    color: #999;
+    margin-bottom: 10px;
+}
+.pageDossier .step2 .box1 .col-upload .img{
+    width: 100%;
+    border: 1px solid #cdced0;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.pageDossier .step2 .box1 .col-upload .img img{
+    width: 100%;
+    height: 100%;
+}
+.pageDossier .step2 .box1 .col-upload .btn{
+    width: 100%;
+    position: relative;
+}
+.pageDossier .step2 .box1 .col-upload .btn input{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    cursor: pointer;
+}
+.pageDossier .step2 .box1 .btns{
+    text-align: center;
+}
+.pageDossier .step2 .box2 .row2 .btn{
+    width: 45%;
+}
+.pageDossier .step2 .box3 .row{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.pageDossier .step2 .box3 .bootstrap-select{
+    width: 100px;
+}
+.pageDossier .step2 .box3 .row .col-money{
+    text-align: right;
+}
+.pageDossier .step2 .box3 .row .col-money em{
+    font-size: 25px;
+    font-style: normal;
+}
+.pageDossier .step2 .box3 .btns{
+    position: relative;
+    text-align: center;
+}
+.pageDossier .step2 .box3 .btns .readme{
+    cursor: pointer;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+.pageDossier .step2 .box3 .btns .readme *{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px;
+    margin: 0px;
+    line-height: 16px;
+    font-weight: 200;
+}
+.pageDossier .step2 .box3 .btns .readme .text{
+    color: #333;
+}
+.pageDossier .step2 .box3 .btns .readme a{
+    color: #5dbdf7;
+}
+.pageDossier .step3 strong {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.pageDossier .step3 p {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.pageDossier .step3 p span{
+    display: block;
+}
+.pageDossier .step3 p em{
+    font-size: 22px;
+    color: #4eb8f6;
+    font-style: normal;
+}
+
+.pageDossier .step3 .btn-group{
+    margin-bottom: 30px;
+    padding: 0px;
+}
+.pageDossier .step3 .btn-group li{
+    border: 1px solid #ccc;
+}
+.pageDossier .step3 .btn-group li a{
+    color: #747474;
+    text-decoration: none;
+}
+.pageDossier .step3 .btn-group li:hover,
+.pageDossier .step3 .btn-group li.active{
+    background: #e1e1e1;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0);
+}
+.pageDossier .step3 .list{
+    margin-bottom: 20px;
+    padding: 0px 10px;
+}
+.pageDossier .step3 .list li{
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+.pageDossier .step3 .list li.active label{
+    border-color:  #4eb8f6;
+}
+.pageDossier .step3 .list label{
+    border: 1px solid #ddd;
+    display: block;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.pageDossier .step3 .list input,
+.pageDossier .step3 .list .text{
+    display: none;
+}
+.pageDossier .step3 .list img{
+    max-width: 100%;
+}
+.pageDossier .step4 strong {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.pageDossier .step4 p {
+    text-align: left;
+}
+.pageDossier .step4 table{
+    font-size: 12px;
+}
+.pageDossier .step4 th {
+    text-align: center;
+}
+/* 小屏幕（平板，大于等于 768px） */
+
+@media (min-width: 768px) {}
+
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .pageDossier .col-xs-12 {
+        width: 100%;
+    }
+}
+
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+
+@media (min-width: 1200px) {
+    /* .pageDossier {
+    padding-top: 126px;
+  } */
+    .pageDossier .navbar {
+        margin-bottom: 0;
+    }
+    .pageDossier .main .container {
+        padding: 0px;
+        margin-top: 30px;
+    }
+    .pageDossier .main .container>div {
+        padding: 50px;
+        text-align: center;
+    }
+    .pageDossier .step1 strong {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .pageDossier .step1 p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .pageDossier .step1 b {
+        padding: 30px 0;
+    }
+    .pageDossier .step2{
+        padding: 0px!important;
+    }
+
+    .pageDossier .step2 strong{
+        display: block;
+        border-bottom: 1px solid #cccccc;
+        padding-bottom: 10px;
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    .pageDossier .step2 strong .btnUpdate{
+        float: right;
+        font-size: 15px;
+        margin-top: 10px;
+        color: #4ba1ec;
+    }
+    .pageDossier .step2 .box{
+        background: #fff;
+        text-align: left;
+        margin-bottom: 20px;
+        padding: 30px 50px;
+    }
+    .pageDossier .step2 .box1 .has-error input{
+        border-color: #e84218;
+    }
+    .pageDossier .step2 .box1 .form-group{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .pageDossier .step2 .box1 .form-group .form-control{
+        width: 250px;
+        display: inline-block;
+    }
+    .pageDossier .step2 .box1 .control-label{
+        text-align: left;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 16px;
+        font-weight: normal;
+        color: #999;
+    }
+    .pageDossier .step2 .box1 .radio{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .pageDossier .step2 .box1 .msg{
+        display: inline-block;
+    }
+    .pageDossier .step2 .box1 .msg.error{
+        color: #e54920;
+    }
+    .pageDossier .step2 .box1 .col-upload{
+        text-align: center;
+    }
+    .pageDossier .step2 .box1 .col-upload b{
+        display: block;
+        font-size: 15px;
+        text-align: center;
+        font-weight: normal;
+        margin-bottom: 15px;
+    }
+    .pageDossier .step2 .box1 .col-upload .row{
+        padding: 0 40px;
+        margin-bottom: 30px;
+    }
+    .pageDossier .step2 .box1 .col-upload .img{
+        width: 166px;
+        height: 108px;
+        border: 1px solid #cdced0;
+        display: inline-block;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .pageDossier .step2 .box1 .col-upload .img img{
+        width: 100%;
+        height: 100%;
+    }
+    .pageDossier .step2 .box1 .col-upload .text{
+        display: block;
+        text-align: center;
+        font-size: 15px;
+        color: #999;
+        margin-bottom: 10px;
+    }
+    .pageDossier .step2 .box1 .col-upload .btn{
+        width: 166px;
+        position: relative;
+    }
+    .pageDossier .step2 .box1 .col-upload .btn input{
+        width: 166px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .pageDossier .step2 .box2 .col-upload .row2 .img{
+        margin: 0 5px 10px 5px;
+    }
+    .pageDossier .step2 .box1 .btns{
+        text-align: center;
+    }
+    .pageDossier .step2 .box3 .row{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .pageDossier .step2 .box3 .row .col-money{
+        text-align: right;
+    }
+    .pageDossier .step2 .box3 .row .col-money em{
+        font-size: 25px;
+        font-style: normal;
+    }
+    .pageDossier .step2 .box3 .btns{
+        position: relative;
+        text-align: center;
+    }
+    .pageDossier .step2 .box3 .btns .readme{
+        position: absolute;
+        left: 0px;
+        top: 10px;
+        cursor: pointer;
+        vertical-align: middle;
+        margin-bottom: 0px;
+    }
+    .pageDossier .step2 .box3 .btns .readme *{
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0px;
+        margin: 0px;
+        line-height: 16px;
+        font-weight: 200;
+    }
+    .pageDossier .step2 .box3 .btns .readme .text{
+        color: #333;
+    }
+    .pageDossier .step2 .box3 .btns .readme a{
+        color: #5dbdf7;
+    }
+    .pageDossier .step3 strong {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .pageDossier .step3 p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .pageDossier .step3 p span{
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .pageDossier .step3 p em{
+        font-size: 22px;
+        color: #4eb8f6;
+        font-style: normal;
+    }
+    .pageDossier .step3 .btn-group{
+        margin-bottom: 30px;
+    }
+    .pageDossier .step3 .btn-group li{
+        border: 1px solid #ccc;
+    }
+    .pageDossier .step3 .btn-group li a{
+        color: #747474;
+        text-decoration: none;
+    }
+    .pageDossier .step3 .btn-group li:hover,
+    .pageDossier .step3 .btn-group li.active{
+        background: #e1e1e1;
+        box-shadow: inset 0 3px 5px rgba(0,0,0,0);
+    }
+    .pageDossier .step3 .list{
+        padding: 0px 110px;
+        margin-bottom: 30px;
+    }
+    .pageDossier .step3 .list li{
+        list-style: none;
+        margin-bottom: 10px;
+        padding: 0 10px;
+    }
+    .pageDossier .step4 strong {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .pageDossier .step4 p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .pageDossier .step4 table{
+        font-size: 14px;
+    }
+}

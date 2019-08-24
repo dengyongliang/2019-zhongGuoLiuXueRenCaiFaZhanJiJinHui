@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+.pageIndex .main .container{
+  margin-top: 15px;
+}
+.pageIndex .main .container>div{
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.pageIndex .main .container>div strong{
+  display: block;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.pageIndex .main .container>div.textBox{
+  background: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 15px;
+}
+.pageIndex .addBox form{
+  text-align: center;
+}
+.pageIndex .addedBox form{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pageIndex .addedBox table th{
+  border-width: 1px;
+  background: #f4f4f4;
+  text-align: center;
+  font-weight: normal;
+}
+.modal-update-student .has-error input{
+  border-color: #e84218;
+}
+.modal-update-student .msg.error{
+  color: #e54920;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .pageIndex .col-xs-12{
+    width: 100%;
+  }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  /* .pageIndex {
+    padding-top: 126px;
+  } */
+  .pageIndex .navbar{
+    margin-bottom: 0;
+  }
+  .pageIndex .main .container{
+    padding: 0px;
+    margin-top: 30px;
+  }
+  .pageIndex .main .container>div{
+    padding: 30px 20px;
+  }
+  .pageIndex .main .container>div strong{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+  }
+  .pageIndex .addBox .form-control{
+    width: 344px;
+    margin-right: 5px;
+  }
+  .pageIndex .addedBox form{
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  .pageIndex .addedBox .form-control{
+    margin: 0 10px;
+    text-align: left;
+  }
+  .pageIndex .addedBox table th{
+    border-width: 1px;
+    background: #f4f4f4;
+    text-align: center;
+    font-weight: normal;
+  }
+  .pageIndex .addedBox table td{
+    text-align: center;
+  }
+  .pageIndex .addedBox table td a{
+    color: #4fb7f6;
+  }
+  .modal-update-student .modal-body{
+    padding-left: 40px;
+  }
+  .modal-update-student .form-control{
+    width: 300px;
+    display: inline-block;
+  }
+
+}
