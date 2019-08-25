@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.modal-update-agent .has-error input{
+  border-color: #e84218;
+}
+.modal-update-agent .msg.error{
+  color: #e54920;
+}
+.modal-update-agent .bootstrap-select{
+  width: 300px!important;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+  .pageIndex .boxAdd .form-group{
+    width: calc(20% - 10px);
+  }
+  .pageIndex .boxFilter .form-group{
+    width: calc(20% - 10px);
+  }
+  .pageIndex .boxFilter .input-daterange{
+    width: calc(40% - 10px);
+  }
+  .modal-update-agent .modal-body{
+    padding-left: 40px;
+  }
+  .modal-update-agent .form-control{
+    width: 300px;
+    display: inline-block;
+  }
+  .modal-update-mark .modal-body{
+    padding-left: 40px;
+  }
+  .modal-update-mark .form-control{
+    width: 350px;
+    display: inline-block;
+  }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+
+
+}

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.modal-update-admin .has-error input{
+  border-color: #e84218;
+}
+.modal-update-admin .msg.error{
+  color: #e54920;
+}
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+  .pageAdmins .boxFilter .form-group{
+    width: calc(25% - 10px);
+  }
+  .modal-update-admin .modal-body{
+    padding-left: 40px;
+  }
+  .modal-update-admin .form-control{
+    width: 300px;
+    display: inline-block;
+  }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+
+
+}

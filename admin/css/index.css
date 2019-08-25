@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+.pageIndex .main .container{
+  margin-top: 15px;
+}
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .pageIndex .col-xs-12{
+    width: 100%;
+  }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  .pageIndex .navbar{
+    margin-bottom: 30px;
+  }
+  .pageIndex .main .container{
+    padding: 0px;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .pageIndex .row1{
+    margin-bottom: 20px;
+  }
+  .pageIndex .row1>div>div{
+    background: #fff;
+    padding: 25px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  .pageIndex .row1>div>div p{
+    margin: 0 0 5px 0;
+    color: #fff;
+  }
+  .pageIndex .row1>div>div b{
+    font-size: 38px;
+    color: #fff;
+  }
+  .pageIndex .row1>div:nth-child(1)>div{
+    background: #238fe5 url(../img/img_02.png) no-repeat 100% 100%;
+  }
+  .pageIndex .row1>div:nth-child(2)>div{
+    background: #29bcc9 url(../img/img_03.png) no-repeat 100% 100%;
+  }
+  .pageIndex .row1>div:nth-child(3)>div{
+    background: #ff8296 url(../img/img_04.png) no-repeat 100% 100%;
+  }
+  .pageIndex .row2{
+    margin-bottom: 20px;
+  }
+  .pageIndex .row2>div>div{
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+  }
+  .pageIndex .row2>div>div strong{
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .pageIndex .rowTable{
+    background: #fff;
+    padding: 30px;
+    font-size: 15px;
+  }
+  .pageIndex .rowTable table{
+    margin: 0px;
+  }
+  .pageIndex .rowTable td{
+    color: #333;
+  }
+  .pageIndex .rowTable tr:nth-child(1) td{
+    border: none;
+  }
+}
