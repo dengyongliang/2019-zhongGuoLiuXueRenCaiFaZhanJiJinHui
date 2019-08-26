@@ -8,31 +8,32 @@
 .modal-update-agent .bootstrap-select{
   width: 300px!important;
 }
+.pageIndex .boxAdd .form-group{
+  width: calc(20% - 10px);
+}
+.pageIndex .boxFilter .form-group{
+  width: calc(20% - 10px);
+}
+.pageIndex .boxFilter .input-daterange{
+  width: calc(40% - 10px);
+}
+.modal-update-agent .modal-body{
+  padding-left: 40px;
+}
+.modal-update-agent .form-control{
+  width: 300px;
+  display: inline-block;
+}
+.modal-update-mark .modal-body{
+  padding-left: 40px;
+}
+.modal-update-mark .form-control{
+  width: 350px;
+  display: inline-block;
+}
 /* 小屏幕（平板，大于等于 768px） */
 @media (min-width: 768px) {
-  .pageIndex .boxAdd .form-group{
-    width: calc(20% - 10px);
-  }
-  .pageIndex .boxFilter .form-group{
-    width: calc(20% - 10px);
-  }
-  .pageIndex .boxFilter .input-daterange{
-    width: calc(40% - 10px);
-  }
-  .modal-update-agent .modal-body{
-    padding-left: 40px;
-  }
-  .modal-update-agent .form-control{
-    width: 300px;
-    display: inline-block;
-  }
-  .modal-update-mark .modal-body{
-    padding-left: 40px;
-  }
-  .modal-update-mark .form-control{
-    width: 350px;
-    display: inline-block;
-  }
+
 }
 
 /* 中等屏幕（桌面显示器，大于等于 992px） */

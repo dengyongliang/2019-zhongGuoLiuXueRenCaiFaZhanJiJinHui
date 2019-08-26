@@ -1,3 +1,10 @@
+/*
+ * @Description: In User Settings Edit
+ * @Author: your name
+ * @Date: 2019-08-26 13:09:39
+ * @LastEditTime: 2019-08-26 13:23:01
+ * @LastEditors: Please set LastEditors
+ */
 $(function() {
     var $page = $(".pageAccount");
     var currentPage = 1;
@@ -143,12 +150,12 @@ $(function() {
         preview: '.previewImg',//预览视图
         guides: false,  //裁剪框的虚线(九宫格)
         autoCropArea: 0.5,  //0-1之间的数值，定义自动剪裁区域的大小，默认0.8
-        movable: false, //是否允许移动图片
+        movable: true, //是否允许移动图片
         dragCrop: true,  //是否允许移除当前的剪裁框，并通过拖动来新建一个剪裁框区域
         movable: true,  //是否允许移动剪裁框
         resizable: true,  //是否允许改变裁剪框的大小
-        zoomable: false,  //是否允许缩放图片大小
-        mouseWheelZoom: false,  //是否允许通过鼠标滚轮来缩放图片
+        zoomable: true,  //是否允许缩放图片大小
+        mouseWheelZoom: true,  //是否允许通过鼠标滚轮来缩放图片
         touchDragZoom: true,  //是否允许通过触摸移动来缩放图片
         rotatable: true,  //是否允许旋转图片
         crop: function(e) {
@@ -184,7 +191,7 @@ $(function() {
             var cas = $('#tailoringImg').cropper('getCroppedCanvas');//获取被裁剪后的canvas
             var base64url = cas.toDataURL('image/png'); //转换为base64地址形式
             $("#finalImg").prop("src",base64url);//显示为图片的形式
-
+            uploadFile(encodeURIComponent(base64url))//编码后上传服务器
             //关闭裁剪框
             closeTailor();
         }
@@ -208,3 +215,16 @@ function selectImg(file) {
 function closeTailor() {
     $(".tailoring-container").toggle();
 }
+
+//ajax请求上传  
+function uploadFile(file) {  
+    $.ajax({  
+        url : '/demo/upload.do',  
+        type : 'POST',  
+        data : "file=" + file,  
+        async : true,  
+        success : function(data) {  
+            console.log(data)  
+        }  
+    });  
+} 

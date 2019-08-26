@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-08-22 13:12:50
- * @LastEditTime: 2019-08-23 14:40:31
+ * @LastEditTime: 2019-08-26 13:27:13
  * @LastEditors: Please set LastEditors
  -->
 <!doctype html>
@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="widget/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="widget/bootstrap/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="widget/toastr/toastr.min.css">
+    <link rel="stylesheet" href="widget/cropper/cropper.min.css">
+    <link rel="stylesheet" href="css/ImgCropping.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/account.css">
 </head>
@@ -62,9 +64,10 @@
                 <div class="row">
                     <div class="col-xs-12 col-md-4 col-photo">
                         <span class="photo">
+                            <img id="finalImg" src="" width="100%">
                         </span>
                         <div class="btns">
-                            <button type="button" class="btn btn-default">更换头像</button>
+                            <button type="button" class="btn btn-default" id="replaceImg">更换头像</button>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-8">
@@ -118,10 +121,41 @@
             </p>
         </div>
     </footer>
+    <!--图片裁剪框 start-->
+    <div style="display: none;" class="tailoring-container">
+        <div class="black-cloth" onclick="closeTailor(this)"></div>
+        <div class="tailoring-content" style="top: 200px; left: 529.5px;">
+                <div class="tailoring-content-one">
+                    <label title="上传图片" for="chooseImg" class="l-btn choose-btn">
+                        <input type="file" accept="image/jpg,image/jpeg,image/png" name="file" id="chooseImg" class="hidden" onchange="selectImg(this)">
+                        选择图片
+                    </label>
+                    <div class="close-tailoring" onclick="closeTailor(this)">×</div>
+                </div>
+                <div class="tailoring-content-two">
+                    <div class="tailoring-box-parcel">
+                        <img id="tailoringImg">
+                    </div>
+                    <div class="preview-box-parcel">
+                        <p>图片预览：</p>
+                        <div class="square previewImg" style="display: none;"></div>
+                        <div class="circular previewImg"></div>
+                    </div>
+                </div>
+                <div class="tailoring-content-three">
+                    <button class="l-btn cropper-reset-btn">复位</button>
+                    <button class="l-btn cropper-rotate-btn">旋转</button>
+                    <button class="l-btn cropper-scaleX-btn">换向</button>
+                    <button class="l-btn sureCut" id="sureCut">确定</button>
+                </div>
+            </div>
+    </div>
+    <!--图片裁剪框 end-->
 </body>
 <script type="text/javascript" src="widget/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="widget/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="widget/toastr/toastr.min.js"></script>
+<script type="text/javascript" src="widget/cropper/cropper.min.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/account.js"></script>
 </html>

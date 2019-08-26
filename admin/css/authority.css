@@ -5,19 +5,19 @@
 .modal-update-admin .msg.error{
   color: #e54920;
 }
-
+.pageAdmins .boxFilter .form-group{
+  width: calc(25% - 10px);
+}
+.modal-update-admin .modal-body{
+  padding-left: 40px;
+}
+.modal-update-admin .form-control{
+  width: 300px;
+  display: inline-block;
+}
 /* 小屏幕（平板，大于等于 768px） */
 @media (min-width: 768px) {
-  .pageAdmins .boxFilter .form-group{
-    width: calc(25% - 10px);
-  }
-  .modal-update-admin .modal-body{
-    padding-left: 40px;
-  }
-  .modal-update-admin .form-control{
-    width: 300px;
-    display: inline-block;
-  }
+
 }
 
 /* 中等屏幕（桌面显示器，大于等于 992px） */

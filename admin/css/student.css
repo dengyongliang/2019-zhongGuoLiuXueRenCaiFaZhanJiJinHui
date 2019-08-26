@@ -1,14 +1,14 @@
 @charset "UTF-8";
-
+.pageIndex .boxFilter .form-group{
+  width: calc(20% - 10px);
+}
+.pageIndex .boxFilter .input-daterange{
+  width: calc(40% - 10px);
+}
 
 /* 小屏幕（平板，大于等于 768px） */
 @media (min-width: 768px) {
-  .pageIndex .boxFilter .form-group{
-    width: calc(20% - 10px);
-  }
-  .pageIndex .boxFilter .input-daterange{
-    width: calc(40% - 10px);
-  }
+
 }
 
 /* 中等屏幕（桌面显示器，大于等于 992px） */
