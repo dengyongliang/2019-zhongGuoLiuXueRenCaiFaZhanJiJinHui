@@ -13,7 +13,7 @@
   .pageIndex .row1>div>div{
     background: #fff;
     padding: 25px 30px;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 10px;
   }
   .pageIndex .row1>div>div p{
@@ -50,7 +50,8 @@
   .pageIndex .rowTable{
     background: #fff;
     padding: 30px;
-    font-size: 15px;
+    font-size: ;
+    border-radius: 10px;
   }
   .pageIndex .rowTable table{
     margin: 0px;

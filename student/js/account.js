@@ -9,18 +9,41 @@ $(function() {
     var $page = $(".pageAccount");
     $page.delegate(".update", "click", function(e) {
         var $this = $(this);
-        $this.closest("tr").find("input").show().siblings().hide();
+        $this.closest("tr").find("input").show().siblings(".text").hide();
         $this.hide().siblings().show();
     });
+    $page.delegate(".updatePw", "click", function(e) {
+        var $this = $(this);
+        $this.closest("tr").find("input").show().siblings(".text").hide();
+        $this.hide().siblings().show();
+        $page.find(".rePw").show();
+    });
+    $page.delegate(".updateMobile", "click", function(e) {
+        var $this = $(this);
+        $this.closest("tr").find("input,button").show().siblings(".text").hide();
+        $this.hide().siblings().show();
+    });
+    
     $page.delegate(".cancle", "click", function(e) {
         var $this = $(this);
         $this.closest("tr").find("input").hide().siblings().show();
         $this.hide().siblings(".save").hide().siblings(".update").show();
     });
-    $page.delegate("#saveMobile", "click", function(e) {
+    $page.delegate(".cancleMobile", "click", function(e) {
+        var $this = $(this);
+        $this.closest("tr").find("input,button").hide().siblings(".text").show();
+        $this.hide().siblings(".save").hide().siblings(".updateMobile").show();
+    });
+    $page.delegate(".canclePw", "click", function(e) {
         var $this = $(this);
         $this.closest("tr").find("input").hide().siblings().show();
-        $this.hide().siblings(".cancle").hide().siblings(".update").show();
+        $this.hide().siblings(".save").hide().siblings(".updatePw").show();
+        $page.find(".rePw").hide();
+    });
+    $page.delegate("#saveMobile", "click", function(e) {
+        var $this = $(this);
+        $this.closest("tr").find("input, button").hide().siblings(".text").show();
+        $this.hide().siblings(".cancleMobile").hide().siblings(".updateMobile").show();
         toastr.success('保存成功');
         toastr.error('保存失败');
     });
@@ -34,7 +57,8 @@ $(function() {
     $page.delegate("#savePw", "click", function(e) {
         var $this = $(this);
         $this.closest("tr").find("input").hide().siblings().show();
-        $this.hide().siblings(".cancle").hide().siblings(".update").show();
+        $this.hide().siblings(".canclePw").hide().siblings(".updatePw").show();
+        $page.find(".rePw").hide();
         toastr.success('保存成功');
         toastr.error('保存失败');
     });

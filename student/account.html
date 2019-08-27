@@ -75,11 +75,11 @@
                             <tbody>
                                 <tr>
                                     <td class="col1"><span class="icon"><i class="glyphicon glyphicon-ok-sign"></i></span>   手机号</td>
-                                    <td class="col2"><input type="text" value="15110066123"><span class="text">15110066123</span></td>
+                                    <td class="col2"><input type="text" value="15110066123"><input type="text" placeholder="验证码" class="code"><button type="button" class="btn btn-default" id="getVCode">获取验证码</button><span class="text">15110066123</span></td>
                                     <td class="col3">
-                                        <a href="javascript:;" class="update">修改</a>
+                                        <a href="javascript:;" class="updateMobile">修改</a>
                                         <a href="javascript:;" class="save" id="saveMobile">保存</a>
-                                        <a href="javascript:;" class="cancle">取消</a>
+                                        <a href="javascript:;" class="cancleMobile">取消</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -95,9 +95,15 @@
                                     <td class="col1"><span class="icon"><i class="glyphicon glyphicon-ok-sign"></i></span>密码：</td>
                                     <td class="col2"><input type="text" value="123456"><span class="text">123456</span></td>
                                     <td class="col3">
-                                        <a href="javascript:;" class="update">修改</a>
+                                        <a href="javascript:;" class="updatePw">修改</a>
                                         <a href="javascript:;" class="save" id="savePw">保存</a>
-                                        <a href="javascript:;" class="cancle">取消</a>
+                                        <a href="javascript:;" class="canclePw">取消</a>
+                                    </td>
+                                </tr>
+                                <tr class="rePw" style="display: none">
+                                    <td class="col1"><span class="icon"></span>重复密码：</td>
+                                    <td class="col2"><input type="text" value="123456" style="display: inline-block;"></td>
+                                    <td class="col3">
                                     </td>
                                 </tr>
                             </tbody>

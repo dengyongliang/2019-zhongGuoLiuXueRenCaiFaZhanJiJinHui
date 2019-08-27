@@ -18,7 +18,7 @@
 }
 .pageIndex .main .info p{
   color: #fff;
-  font-size: 12px;
+  font-size: 13px;
   margin-bottom: 5px;
 }
 .pageIndex .main .info b{
@@ -40,7 +40,7 @@
   margin-bottom: 30px;
 }
 .pageIndex .main .notes p{
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
   color: #666;
 }
@@ -108,8 +108,8 @@
     padding: 20px 50px;
   }
   .pageIndex .main .notes p{
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 14px;
+    line-height: 24px;
   }
   .pageIndex .main .chart{
     padding: 50px;

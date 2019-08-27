@@ -72,7 +72,7 @@
 }
 .pageDossier .step2 .box1 .col-upload b{
     display: block;
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
     font-weight: normal;
     margin-bottom: 15px;
@@ -80,7 +80,7 @@
 .pageDossier .step2 .box1 .col-upload .text{
     display: block;
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
     color: #999;
     margin-bottom: 10px;
 }
@@ -115,7 +115,7 @@
     width: 45%;
 }
 .pageDossier .step2 .box3 .row{
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 20px;
 }
 .pageDossier .step2 .box3 .bootstrap-select{
@@ -262,7 +262,7 @@
         margin-bottom: 30px;
     }
     .pageDossier .step1 p {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 28px;
     }
     .pageDossier .step1 b {
@@ -282,7 +282,7 @@
     }
     .pageDossier .step2 strong .btnUpdate{
         float: right;
-        font-size: 15px;
+        font-size: 14px;
         margin-top: 10px;
         color: #4ba1ec;
     }
@@ -307,7 +307,7 @@
         text-align: left;
         padding-left: 0px;
         padding-right: 0px;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: normal;
         color: #999;
     }
@@ -326,7 +326,7 @@
     }
     .pageDossier .step2 .box1 .col-upload b{
         display: block;
-        font-size: 15px;
+        font-size: 14px;
         text-align: center;
         font-weight: normal;
         margin-bottom: 15px;
@@ -351,7 +351,7 @@
     .pageDossier .step2 .box1 .col-upload .text{
         display: block;
         text-align: center;
-        font-size: 15px;
+        font-size: 14px;
         color: #999;
         margin-bottom: 10px;
     }
@@ -374,7 +374,7 @@
         text-align: center;
     }
     .pageDossier .step2 .box3 .row{
-        font-size: 15px;
+        font-size: 14px;
         margin-bottom: 20px;
     }
     .pageDossier .step2 .box3 .row .col-money{
@@ -456,7 +456,7 @@
         margin-bottom: 30px;
     }
     .pageDossier .step4 p {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 28px;
     }
     .pageDossier .step4 table{
