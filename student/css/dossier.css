@@ -29,6 +29,12 @@
     background: none!important;
     padding: 0px!important;
 }
+.pageDossier .step2 .edit,
+.pageDossier .step2 .btnUpload,
+.pageDossier .step2 .box1 .btns button,
+.pageDossier .step2 .box2 .btns button{
+    display: none;
+}
 .pageDossier .step2 strong{
     display: block;
     border-bottom: 1px solid #cccccc;
@@ -58,6 +64,10 @@
 .pageDossier .step2 .box1 .has-error input{
     border-color: #e84218;
 }
+.pageDossier .step2 .v{
+    display: inline-block;
+    padding-top: 7px;
+}
 .pageDossier .step2 .box1 .msg{
     display: inline-block;
 }
@@ -72,7 +82,7 @@
 }
 .pageDossier .step2 .box1 .col-upload b{
     display: block;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     font-weight: normal;
     margin-bottom: 15px;
@@ -80,7 +90,7 @@
 .pageDossier .step2 .box1 .col-upload .text{
     display: block;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     color: #999;
     margin-bottom: 10px;
 }

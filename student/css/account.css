@@ -13,16 +13,36 @@
   padding-bottom: 10px;
   font-size: 14px;
 }
-.pageAccount .main .container>div table{
+.pageAccount .main .container>div .col-table{
   font-size: 12px;
-  width: 100%;
   margin-bottom: 20px;
 }
-.pageAccount .main .container>div table td{
+.pageAccount .main .container>div .col-table>div{
+  margin: 0px;
+}
+.pageAccount .main .container>div .col-table>div>div{
   padding: 10px 0;
 }
-.pageAccount .main .container>div table td a{
+.pageAccount .main .container>div .col-table>div>div:nth-last-child(1){
+  text-align: right;
+}
+.pageAccount .main .container>div .col-table a{
   color: #307ed3;
+}
+.pageAccount .col-table input{
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  padding: 0 10px;
+  display: block;
+  margin-bottom: 5px;
+}
+.pageAccount .col-table button{
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  display: block;
+  margin-bottom: 5px;
 }
 .pageAccount .main .col-photo{
   text-align: center;
@@ -37,23 +57,26 @@
   overflow: hidden;
   margin-bottom: 20px;
 }
-.pageAccount .main table .icon{
+.pageAccount .main .col-table .icon{
   display: inline-block;
   width: 20px;
   height: 20px;
   line-height: 20px;
   vertical-align: middle;
 }
-.pageAccount .main table .icon i{
+.pageAccount .main .col-table .icon i{
   font-size: 17px;
   color: #5bb328;
+}
+.pageAccount .main .col-table .rePw{
+  display: none;
 }
 .pageAccount .main input,
 .pageAccount .main .save,
 .pageAccount .main .cancle,
 .pageAccount .main .canclePw,
 .pageAccount .main .cancleMobile,
-.pageAccount .main table button{
+.pageAccount .main .col-table button{
   display: none;
 }
 /* 小屏幕（平板，大于等于 768px） */
@@ -91,47 +114,47 @@
   .pageAccount .main .container .col-photo{
     padding: 0px;
   }
-  .pageAccount .main .container>div table{
+  .pageAccount .main .container>div .col-table{
     font-size: 14px;
     margin-bottom: 40px;
   }
-  .pageAccount .main .container>div table td{
-    width: 33.3%;
+  .pageAccount .main .container>div .col-table>div{
     text-align: left;
+    margin: 0px;
   }
-  .pageAccount .main .container>div table td.col1{
-    width: 20%;
+  .pageAccount .main .container>div .col-table>div>div{
+    line-height: 38px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
-  .pageAccount .main .container>div table td.col2{
-    width: 60%;
-  }
-  .pageAccount .main .container>div table td.col3{
-    text-align: right;
-    padding-right: 50px;
-  }
-  .pageAccount .main .container>div table td a{
+
+  .pageAccount .main .container>div .col-table a{
     font-size: 14px;
   }
-  .pageAccount .main .container>div table .icon{
+  .pageAccount .main .container>div .col-table .icon{
     display: inline-block;
     width: 30px;
     height: 30px;
     line-height: 30px;
     vertical-align: middle;
   }
-  .pageAccount .main .container>div table .icon i{
+  .pageAccount .main .container>div .col-table .icon i{
     font-size: 25px;
     color: #5bb328;
   }
-  .pageAccount .main .container>div table input{
+  .pageAccount .main .container>div .col-table input{
     height: 38px;
     line-height: 38px;
     padding: 0 10px;
+    width: auto;
   }
-  .pageAccount .main .container>div table button{
+  .pageAccount .main .container>div .col-table button{
     padding: 0 10px;
+    height: 38px;
+    line-height: 38px;
+    width: auto;
   }
-  .pageAccount .main .container>div table .code{
+  .pageAccount .main .container>div .col-table .code{
     width: 100px;
     margin: 0 10px;
   }
