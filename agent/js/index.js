@@ -68,4 +68,10 @@ $(function() {
             }
         })
     }
+    // 修改学生 提交
+    $("body").delegate("#submitUpdate", "click", function(e) {
+        $('.modal-update-student').modal('hide');
+        toastr.success('修改成功');
+        toastr.error('修改失败');
+    });
 })
