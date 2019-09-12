@@ -49,7 +49,6 @@
   font-size: 17px;
   color: #5bb328;
 }
-
 .pageAccount .account input,
 .pageAccount .account .save,
 .pageAccount .account .cancle{
@@ -135,6 +134,11 @@
     height: 40px;
     line-height: 40px;
     padding: 0 10px;
+  }
+  .pageAccount .account table .bootstrap-select{
+    width: 192px!important;
+    height: 38px;
+    display: none;
   }
   .pageAccount .total .row{
     font-size: 14px;

@@ -92,6 +92,7 @@ input.form-control{
 .bootstrap-select .btn-default{
     border: 1px solid #ccc;
     color: #333;
+    padding: 0 10px;
 }
 .bootstrap-select .btn-default:hover{
     background: #fff;

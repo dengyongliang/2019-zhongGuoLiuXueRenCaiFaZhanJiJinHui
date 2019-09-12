@@ -8,15 +8,17 @@
 $(function() {
     var $page = $(".pageAccount");
     var currentPage = 1;
-
+    // select实例化
+    $('select').selectpicker();
+    // 事件绑定
     $page.delegate(".update", "click", function(e) {
         var $this = $(this);
-        $this.closest("tr").find("input").show().siblings().hide();
+        $this.closest("tr").find("input,.bootstrap-select").show().siblings().hide();
         $this.hide().siblings().show();
     });
     $page.delegate(".cancle", "click", function(e) {
         var $this = $(this);
-        $this.closest("tr").find("input").hide().siblings().show();
+        $this.closest("tr").find("input,.bootstrap-select").hide().siblings().show();
         $this.hide().siblings(".save").hide().siblings(".update").show();
     });
     $page.delegate("#saveName", "click", function(e) {
@@ -63,7 +65,7 @@ $(function() {
     });
     $page.delegate("#saveCity", "click", function(e) {
         var $this = $(this);
-        $this.closest("tr").find("input").hide().siblings().show();
+        $this.closest("tr").find(".bootstrap-select").hide().siblings().show();
         $this.hide().siblings(".cancle").hide().siblings(".update").show();
         toastr.success('保存成功');
         toastr.error('保存失败');
